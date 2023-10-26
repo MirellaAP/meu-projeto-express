@@ -1,0 +1,50 @@
+body {
+    background-color: #2D0302;
+    text-align: center;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.cardix{
+    background-color: #FFFF;
+
+    display: inline-block;
+    width: 290px;
+    height: 400px;
+    padding: 5px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .perfume-h3{
+    padding: 5px;
+    font-family:'Cinzel Decorative', cursive;
+    font-size: 15px;
+    color: #A90623;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .perfume-p{
+        padding: 5px;
+        font-size: 15px;
+        font-family:'Overpass', sans-serif;
+        color: #A90623;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .perfume-p:hover{
+        padding: 5px;
+        margin: 0;
+        font-size: 12px;
+        font-family:'Overpass', sans-serif;
+        white-space: normal;
+      }
