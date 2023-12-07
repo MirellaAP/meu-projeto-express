@@ -11,13 +11,10 @@
 <body>
 
   
-    <h1>Picolo</h1>
-
-
-  <h1></h1>
+    
   <% for (let produto of produtos){ %>
   <div class="cardix">
-    <a href="/produtos/<%= produto.id%>">
+    <a href="/produto/<%= produto.id%>">
     <img src="/imagem/<%=produto.imagem%>" class="imagem">
 
     <h3 class="perfume-h3"><%= produto.nome%></h3>
